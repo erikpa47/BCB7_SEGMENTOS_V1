@@ -9,14 +9,12 @@ You can also include images in this folder and reference them in the markdown. E
 
 ## How it works
 
-Explain how your project works
+This project implements a BCD-to-seven-segment decoder. It receives a 4-bit input and converts it into an 8-bit output to control a seven-segment LED display. The output signals determine which segments of the display are activated to represent the corresponding digit.
 
 ## How to test
 
-Explain how to use your project
+To test the design, apply different 4-bit input values and verify that the seven-segment display shows the corresponding digits. Observe the LED display to confirm that the output signals correctly activate the required segments for each input value.
 
 ## External hardware
 
-List external hardware used in your project (e.g. PMOD, LED display, etc), if any
-
-My projyect use a LED display. Entry signal 4 bit and output signal tha 8 bit. 
+This project uses a seven-segment LED display. The input consists of a 4-bit signal, and the output consists of an 8-bit signal used to control the display segments and additional output.
